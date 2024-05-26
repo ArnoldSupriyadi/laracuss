@@ -27,10 +27,10 @@
                     <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Discucssion</a>
+                    <a class="nav-link" href="#">Discucssion</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">About Us</a>
+                    <a class="nav-link text-nowrap" href="#">About Us</a>
                   </li>
 
                 </ul>
@@ -40,12 +40,12 @@
                     <input class="form-control border-start-0 ps-0" type="search" placeholder="Search" aria-label="Search" name="" value="">
                   </div>
                 </form>
-                <ul>
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
                   <li class="nav-item my-auto">
-                    <a class="nav-link active text-nowrap" href="#">Log In</a>
+                    <a class="nav-link text-nowrap" href="#">Log In</a>
                   </li>
                   <li class="nav-item ps-1 pe-0">
-                    <a class="btn btn-primary-white" href="#">Sign Up</a>
+                    <a class="btn btn-primary-white text-nowrap" href="#">Sign Up</a>
                   </li>
                 </ul>
               </div>
